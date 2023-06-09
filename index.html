@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
+  <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
@@ -9,10 +8,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.min.css">
 <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
 <!-- optional CDN for Foundation Icons ^^ -->
-    <title>Online workshops for free</title>
-  </head>
-  <body>
-  	<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -25,28 +22,51 @@ body {
 
 .fw-light {
   font-weight: lighter;
-}</style>
+}
 
+.card.workshop {
+  border: 0;
+/*  box-shadow: 0px 0px 8px #aaa;*/
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}</style>
+    <title>Online Workshops for Free</title>
+  </head>
+  <body>
     <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas>
       <div class="grid-y grid-padding-x" style="height: 100%;">
         <br />
         <div class="cell auto">
-          <p>
-          	<strong class="h6">Honchung Cheng</strong><br />
-          	<em>Technology Consultant</em>
-          </p>
+          <div class="grid-x">
+            <div class="cell small-3">
+              <div class="avatar rounded" style="
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/me.png);
+    background-position: center center;
+    background-size: 180%;
+"></div>
+
+            </div>
+            <div class="cell small-9">
+              <p>
+              	<strong class="h6">Honchung Cheng</strong><br />
+              	<em>Technology Consultant</em>
+              </p>
+            </div>
+          </div>
           <div class="fw-light"><p>I have been closely following up the development of AI technology since 2016, the same year when AlphaGo beat the top Go player Lee Sedol.</p>
-<p>Now being actively involved AI development, I'm ready to help you keep up with the trend.</p></div>
-          <h4>Availability</h4>
+<p>Now being actively involved in AI development, I'm ready to help you keep up with the trend.</p></div>
+          <h6><strong>Availability</strong></h6>
 <p>
-	Sun - Thu, 10:00 AM - 11:00 PM<br/>
-	Fri, 10:00 AM - 5:00 PM<br/>
-	Sat, 9:30 PM - 11:30 PM<br/>
+Sun - Thu, 2:00 PM - 11:00 PM<br>
+Fri, 2:00 PM - 5:00 PM<br>
+Sat, 9:30 PM - 11:30 PM
 </p>
 <div><a class="hollow button rounded primary"
 	target="_blank"
 	href="https://cal.com/chenghc">
-SCHEDULE A MEETING
+BOOK A MEETING
 </a></div>
 
         </div>
@@ -57,29 +77,58 @@ SCHEDULE A MEETING
       <div class="title-bar hide-for-large">
         <div class="title-bar-left">
           <button class="menu-icon" type="button" data-toggle="my-info"></button>
-          <span class="title-bar-title">Online workshops for free</span>
+          <span class="title-bar-title">Online Workshops for Free</span>
         </div>
       </div>
     
       <div class="callout border-none">
         <article class="grid-container">
-          <div class="">
-            <h1>Equipt yourself with cutting-edge technology</h1>
-            <p class="lead">I offer online workshops that cover various topics from basics of programming to starting an AI project</p>
+          <div class="intro-title">
+            <h2 class="fw-light">Equipt yourself with cutting-edge technology</h2>
+            <p class="lead">I offer online workshops that cover various topics from basics of programming to starting an AI project<br />
+<h6 class="">
+**By entering the code "CHENG587" at the additional notes section during booking, you get your first meeting session for free**
+</h6></p>
           </div>
         </article>
       </div>
 
       <article class="grid-container">
-        <div class="workshop">
-          <h4>Make Language Models your Personal Assistant</h4>
-          <p><img src="/assets/screenshot.png" /></p>
-          <p>Learn how to run AI language models (the like of ChatGPT) on your computer locally without internet connection</p>
-          <p><a class="hollow button rounded primary"
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-6">
+            <div class="card workshop">
+	<div class="card-divider">
+		Make Language Models your Personal Assistant
+	</div>
+	<img src="/assets/screenshot.png">
+	<div class="card-section">
+		<h4>Do you like ChatGPT?</h4>
+		<p><em>Do you know</em> that you can install an AI language model (the like of ChatGPT) on your own computer so that you can ask it as many questions as you want and get your answers instantly? Learn how to achieve this by joining the this workshop.</p>
+		<p><a class="hollow button rounded primary"
 	target="_blank"
 	href="https://cal.com/chenghc">
-SCHEDULE A MEETING
+BOOK A MEETING
 </a></p>
+	</div>
+</div>
+          </div>
+          <div class="cell medium-6">
+            <div class="card workshop">
+	<div class="card-divider">
+		Awesome Command Line Interface Tools
+	</div>
+	<img src="/assets/cli.jpg">
+	<div class="card-section">
+		<h4>Start Coding!</h4>
+		<p>Creating command line interface (CLI) tools is a simple yet effective way to practise your coding skills. From describing your CLI tool to finishing it, you will be provided step-by-step guidance which makes sure you understand every essential part in the coding. And the final product is yours!</p>
+		<p><a class="hollow button rounded primary"
+	target="_blank"
+	href="https://cal.com/chenghc">
+BOOK A MEETING
+</a></p>
+	</div>
+</div>
+          </div>
         </div>
       </article>
 
